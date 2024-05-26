@@ -11,6 +11,15 @@
   width: 480px;
   font-size: 18px;
   padding: 6px;
-  border: 1px solid black;
+  border: 1px solid darkgray;
   border-radius: 4px;
+  padding: 6px;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.searchField:hover,
+.searchField:focus,
+.searchField:active {
+  border: 2px solid #535bf2;
 }

@@ -7,3 +7,33 @@
   flex-direction: column;
   margin-bottom: 16px;
 }
+
+.field {
+  padding: 8px;
+  border-radius: 4px;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.field:hover,
+.field:focus,
+.field:active {
+  border: 2px solid #535bf2;
+}
+
+.btn {
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background: #757fec;
+  outline-color: transparent;
+  outline-offset: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  background: #535bf2;
+}

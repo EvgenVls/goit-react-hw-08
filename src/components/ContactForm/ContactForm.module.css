@@ -24,6 +24,14 @@
   border: 1px solid darkgray;
   border-radius: 4px;
   padding: 6px;
+  outline-color: transparent;
+  outline-offset: 4px;
+}
+
+.formField:hover,
+.formField:focus,
+.formField:active {
+  border: 2px solid #535bf2;
 }
 
 .errorMessage {
@@ -36,10 +44,15 @@
   padding: 8px;
   margin: auto;
   border-radius: 6px;
-  border: 1px solid;
+  border: none;
+  color: white;
+  background: #757fec;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline-color: transparent;
+  outline-offset: 4px;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: rgb(221, 220, 220);
+  background: #535bf2;
 }
