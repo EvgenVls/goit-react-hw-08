@@ -4,7 +4,6 @@ import { HiUser } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi";
 import { deleteContact } from "../../redux/contacts/operations";
 import css from "./Contact.module.css";
-import { unwrapResult } from "@reduxjs/toolkit";
 
 export default function Contact({ data: { id, name, number } }) {
   const dispatch = useDispatch();
